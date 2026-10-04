@@ -1,0 +1,24 @@
+{
+  "name": "gelido-w",
+  "displayName": "gelido-w",
+  "description": "tema dark gelido moderno",
+  "publisher": "willer-barros",
+  "author": "willer-barros",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.140.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "gelido-w",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gelido-w-color-theme.json"
+      }
+    ]
+  },
+  "icon": "logo.png"
+}

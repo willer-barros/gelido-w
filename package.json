@@ -4,9 +4,9 @@
   "description": "tema dark gelido moderno",
   "publisher": "willer-barros",
   "author": "willer-barros",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
-    "vscode": "^1.140.0"
+    "vscode": "^1.80.0"
   },
   "categories": [
     "Themes"

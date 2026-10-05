@@ -29,45 +29,6 @@ Tons derivados para dar profundidade (não fazem parte do núcleo, mas sustentam
 
 ---
 
-## Instalação
-
-### Teste rápido (modo desenvolvimento)
-
-1. Clone ou baixe este repositório.
-2. Abra a pasta `future-w` no VS Code.
-3. Pressione **F5** para abrir uma janela de desenvolvimento com o tema carregado.
-4. Na nova janela, use `Ctrl+K Ctrl+T` e escolha **future-w**.
-
-### Instalação local
-
-Copie a pasta para o diretório de extensões do VS Code e reinicie o editor:
-
-- **Linux / macOS:** `~/.vscode/extensions/future-w`
-- **Windows:** `%USERPROFILE%\.vscode\extensions\future-w`
-
-Depois, ative o tema em **Preferências > Tema de Cores**.
-
-### Empacotar como `.vsix` (opcional)
-
-```bash
-npm install -g @vscode/vsce
-vsce package
-code --install-extension future-w-0.0.1.vsix
-```
-
----
-
-## Estrutura do projeto
-
-```
-future-w/
-├── package.json
-├── README.md
-└── themes/
-    └── future-w-color-theme.json
-```
-
----
 
 ## Filosofia: programar no gelo
 
@@ -107,15 +68,8 @@ Para ajustar qualquer cor sem alterar o tema original, use o `settings.json` do 
   }
 }
 ```
-
 ---
-
-## Roadmap
-
-- [ ] Variante clara (**future-w light**)
-- [ ] Versão com contraste alto
-- [ ] Ajustes finos para Python, TypeScript/React e Markdown
-- [ ] Publicação no Marketplace
+Link Repositorio: https://github.com/willer-barros/gelido-w
 
 ---
 

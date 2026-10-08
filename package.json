@@ -16,7 +16,12 @@
       {
         "label": "gelido-w",
         "uiTheme": "vs-dark",
-        "path": "./themes/gelido-w-color-theme.json"
+        "path": "./themes/future-w-color-theme.json"
+      },
+      {
+        "label": "gelido-w light",
+        "uiTheme": "vs",
+        "path": "./themes/gelido-w-light-color-theme.json"
       }
     ]
   },

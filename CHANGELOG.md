@@ -6,4 +6,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+version [0.1.0] -> Theme light
+
+version [0.0.2] -> Alter paleta de cores
+
 - Initial release

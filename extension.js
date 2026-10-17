@@ -1,6 +1,6 @@
 const vscode = require('vscode');
 
-const NOME_TEMA = 'gelido-w Zero Absoluto';
+const NOME_TEMA = 'gelido-w-zero-absoluto';
 
 let item;
 let timer;

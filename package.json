@@ -4,7 +4,7 @@
   "description": "Tema frio, técnico e aquático para VS Code, com variantes dark e light.",
   "publisher": "willer-barros",
   "author": "willer-barros",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "main": "./extension.js",
   "icon": "logo.png",

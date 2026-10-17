@@ -10,8 +10,15 @@
 |---|---|
 | **gelido-w-dark** | Escuro. Fundo abissal, ciano elétrico e teal brilhando sobre o fundo profundo. |
 | **gelido-w-light** | Claro. Gelo como superfície e abismo como texto, com tons mais escuros da mesma família para manter o contraste. |
-| **gelido-w-zero-absoluto** | Escuro. Termometro para te ajudar a localizar bugs de maneira gamificada |
+| **gelido-w-zero-absoluto** | Escuro. Termômetro dinâmico e gamificado para monitoramento visual de erros e bugs. |
 
+---
+
+### 🌡️ Termômetro de Degelo (Gamificação)
+* ❄️ **Zero Absoluto (-40°C)**: Código limpo, zero erros e avisos.
+* 🧊 **Congelado / Gelo Fino**: Ambiente estável sob controle.
+* 💧 **Derretendo**: Erros e avisos detectados no workspace.
+* 🔥 **Degelo Crítico**: Muitos erros no código — hora de debugar!
 
 ---
 

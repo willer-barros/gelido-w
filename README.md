@@ -1,8 +1,6 @@
 # gelido-w
 
-> Dados líquidos. Superfícies vítreas. Código a zero grau.
-
-**gelido-w** é um tema para o VS Code, com variantes escura e clara, de personalidade fria, técnica e aquática. A paleta nasceu de uma ideia de seção herói para uma landing page de realidade aumentada: interfaces que parecem gelo fino sobre água profunda, onde a informação flui por baixo de uma camada de vidro.
+**gelido-w** é um tema para o VS Code, com variantes escura e clara, de personalidade fria, técnica e aquática. A paleta nasceu de uma ideia de interfaces que parecem gelo fino sobre água profunda, onde a informação flui por baixo de uma camada de vidro.
 
 ---
 
@@ -10,10 +8,10 @@
 
 | Tema | Descrição |
 |---|---|
-| **gelido-w** | Escuro. Fundo abissal, ciano elétrico e teal brilhando sobre o fundo profundo. |
-| **gelido-w light** | Claro. Gelo como superfície e abismo como texto, com tons mais escuros da mesma família para manter o contraste. |
+| **gelido-w-dark** | Escuro. Fundo abissal, ciano elétrico e teal brilhando sobre o fundo profundo. |
+| **gelido-w-light** | Claro. Gelo como superfície e abismo como texto, com tons mais escuros da mesma família para manter o contraste. |
+| **gelido-w-zero-absoluto** | Escuro. Termometro para te ajudar a localizar bugs de maneira gamificada |
 
-Para trocar de tema: `Ctrl+K Ctrl+T` e escolha a variante.
 
 ---
 
@@ -28,32 +26,6 @@ Para trocar de tema: `Ctrl+K Ctrl+T` e escolha a variante.
 | Ciano elétrico | `#00e5ff` | Keywords, cursor e foco (escuro) |
 | Aço azulado | `#3a506b` | Números de linha, bordas, elementos inativos |
 | Gelo | `#e6fffb` | Texto principal (escuro) e sidebar (claro) |
-
-### Tema escuro: tons derivados
-
-| Cor | HEX | Uso |
-|---|---|---|
-| Fundo profundo | `#031720` | Sidebar, painel, activity bar |
-| Superfície | `#082b39` | Hover e linha atual |
-| Borda glacial | `#0b3a4a` | Divisórias e guias de indentação |
-| Aqua claro | `#7ff5e4` | Funções e tipos |
-| Gelo azulado | `#b8f2ff` | Números e constantes |
-| Névoa | `#5b7790` | Comentários |
-
-### Tema claro: tons derivados
-
-| Cor | HEX | Uso |
-|---|---|---|
-| Gelo puro | `#f5fffe` | Fundo do editor |
-| Gelo | `#e6fffb` | Sidebar, abas inativas e linha atual |
-| Borda glacial | `#bfe6e0` | Divisórias e bordas |
-| Ciano profundo | `#00798c` | Keywords e tags |
-| Teal profundo | `#00806f` | Strings |
-| Azul oceano | `#006b8f` | Funções |
-| Verde-mar | `#006d77` | Tipos e classes |
-| Névoa | `#6b8497` | Comentários |
-
-No tema claro, `#00c2a8` e `#00e5ff` têm contraste baixo sobre fundo claro. Por isso ficam restritos a elementos decorativos (status bar, botões, seleção, borda da aba ativa), e o texto de código usa versões mais escuras da mesma família.
 
 ---
 
@@ -77,45 +49,9 @@ Abra um arquivo. Deixe o cursor ciano piscar sobre o fundo profundo. Compile no 
 
 ---
 
-## Personalização
-
-Para ajustar qualquer cor sem alterar o tema original, use o `settings.json` do VS Code. O nome entre colchetes é o do tema:
-
-```json
-{
-  "workbench.colorCustomizations": {
-    "[gelido-w]": {
-      "editorCursor.foreground": "#7ff5e4"
-    },
-    "[gelido-w light]": {
-      "editorCursor.foreground": "#00798c"
-    }
-  },
-  "editor.tokenColorCustomizations": {
-    "[gelido-w]": {
-      "comments": "#6f8fa8"
-    },
-    "[gelido-w light]": {
-      "comments": "#5a7385"
-    }
-  }
-}
-```
-
----
-
 ## Preview
 
 ![gelido-w](assets/img.png)
-
----
-
-## Roadmap
-
-- [x] Variante clara (**gelido-w light**)
-- [x] Publicação no Marketplace
-- [ ] Versão com contraste alto
-- [ ] Ajustes finos para Python, TypeScript/React e Markdown
 
 ---
 

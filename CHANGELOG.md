@@ -6,6 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+version [1.0.2] -> Fix: Caminhos do arquivo light
+
+version [1.0.1] -> Fix: Caminhos do arquivo dark
+
 version [0.1.0] -> Theme light
 
 version [0.0.2] -> Alter paleta de cores

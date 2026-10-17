@@ -1,10 +1,12 @@
 {
   "name": "gelido-w",
   "displayName": "gelido-w",
-  "description": "tema dark gelido moderno",
+  "description": "Tema frio, técnico e aquático para VS Code, com variantes dark e light.",
   "publisher": "willer-barros",
   "author": "willer-barros",
-  "version": "0.0.2",
+  "version": "1.0.2",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/willer-barros/gelido-w" },
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -14,14 +16,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "gelido-w",
+        "label": "gelido-w-dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/future-w-color-theme.json"
+        "path": "./themes/gelido-w-color-theme.json"
       },
       {
-        "label": "gelido-w light",
+        "label": "gelido-w-light",
         "uiTheme": "vs",
-        "path": "./themes/gelido-w-light-color-theme.json"
+        "path": "./themes/gelido-w-light-theme.json"
       }
     ]
   },

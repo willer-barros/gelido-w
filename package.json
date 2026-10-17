@@ -4,8 +4,12 @@
   "description": "Tema frio, técnico e aquático para VS Code, com variantes dark e light.",
   "publisher": "willer-barros",
   "author": "willer-barros",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
+  "main": "./extension.js",
+  "icon": "logo.png",
+  "activationEvents": ["onStartupFinished"],
+  "keywords": ["theme", "dark", "light", "gamer", "cyan", "teal", "aqua", "cold", "glass"],
   "repository": { "type": "git", "url": "https://github.com/willer-barros/gelido-w" },
   "engines": {
     "vscode": "^1.80.0"
@@ -24,8 +28,24 @@
         "label": "gelido-w-light",
         "uiTheme": "vs",
         "path": "./themes/gelido-w-light-theme.json"
+      },
+      {
+        "label": "gelido-w-zero-absoluto",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gelido-w-zero-absoluto-theme.json"
       }
-    ]
-  },
-  "icon": "logo.png"
+    ],
+    "configuration": {
+      "title": "gelido-w",
+      "properties": {
+          "gelidoW.termometro":{
+            "type": "string",
+            "enum": ["auto", "on", "off"],
+            "default": "auto",
+            "description": "Termometro de diagnosticos na status bar. 'auto' so aparece com o tema 'gelido-w Zero absoluto ativo'"
+          }
+      }
+    }
+  }
+  
 }

@@ -6,6 +6,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+version [1.0.3] -> Feat: Theme Gamer
+
 version [1.0.2] -> Fix: Caminhos do arquivo light
 
 version [1.0.1] -> Fix: Caminhos do arquivo dark

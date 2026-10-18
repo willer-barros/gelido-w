@@ -6,6 +6,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+version [1.0.5] -> Feat: Cristalizacao ao salvar
+
 version [1.0.4] -> Fix: auto termometro
 
 version [1.0.3] -> Feat: Theme Gamer

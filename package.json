@@ -4,7 +4,7 @@
   "description": "Tema frio, técnico e aquático para VS Code, com variantes dark e light.",
   "publisher": "willer-barros",
   "author": "willer-barros",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "main": "./extension.js",
   "icon": "logo.png",
@@ -43,6 +43,13 @@
             "enum": ["auto", "on", "off"],
             "default": "auto",
             "description": "Termometro de diagnosticos na status bar. 'auto' so aparece com o tema 'gelido-w Zero absoluto ativo'"
+          },
+
+          "gelidoW.cristalizacao":{
+            "type": "string",
+            "enum": ["auto", "on", "off"],
+            "default": "auto",
+            "description": "Efeito de cristalizacao nas linhas alteradas ao salvar. 'auto' so roda com o tema gelido-w-zero-absoluto"
           }
       }
     }

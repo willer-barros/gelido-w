@@ -11,6 +11,7 @@
 | **gelido-w-dark** | Escuro. Fundo abissal, ciano elétrico e teal brilhando sobre o fundo profundo. |
 | **gelido-w-light** | Claro. Gelo como superfície e abismo como texto, com tons mais escuros da mesma família para manter o contraste. |
 | **gelido-w-zero-absoluto** | Escuro. Termômetro dinâmico e gamificado para monitoramento visual de erros e bugs. |
+| **gelido-w-aurora** | Escuro. Termômetro dinâmico, permaFrost e método pomodoro |
 
 ---
 

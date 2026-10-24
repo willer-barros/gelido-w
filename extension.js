@@ -41,9 +41,9 @@ const KINDS_BLOCO = new Set([
 // ---------- conquistas / permafrost ----------
 const CHAVE_CONQUISTAS = 'gelidoW.conquistas';
 const CHAVE_RECORDE = 'gelidoW.permafrostRecorde';
-const META_PERMAFROST_MS = 10 * 60 * 1000; // para testar rápido, use 30 * 1000
-const JANELA_EDICAO_MS = 60 * 1000; // só conta tempo se houve edição no último minuto
-const GRACA_ERRO_MS = 15 * 1000; // erro só zera a sequência se durar mais que isso
+const META_PERMAFROST_MS = 10 * 60 * 1000;
+const JANELA_EDICAO_MS = 60 * 1000;
+const GRACA_ERRO_MS = 15 * 1000;
 const TICK_PERMAFROST_MS = 5000;
 
 const CONQUISTAS = [

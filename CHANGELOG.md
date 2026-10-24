@@ -6,7 +6,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-version [2.0.0] -> Feat: Cristalizacao ao salvar
+version [2.1.0] -> Feat: Modo Aurora
+
+version [2.0.0] -> Feat: Foco Nevoa
 
 version [1.0.5] -> Feat: Cristalizacao ao salvar
 

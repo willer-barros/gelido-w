@@ -33,6 +33,11 @@
         "label": "gelido-w-zero-absoluto",
         "uiTheme": "vs-dark",
         "path": "./themes/gelido-w-zero-absoluto-theme.json"
+      },
+      {
+        "label": "gelido-w-aurora",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gelido-w-aurora-theme.json"
       }
     ],
     "configuration": {
@@ -57,15 +62,53 @@
             "enum": ["auto", "on", "off"],
             "default": "auto",
             "description": "Botão do modo névoa na status bar. 'auto' so aparece com o tema gelido-w-zero-absoluto."
+          },
+          "gelidoW.permafrost": {
+            "type": "string",
+            "enum": ["auto", "on", "off"],
+            "default": "auto",
+            "description": "Conquista Permafrost e contador de sequência sem erros. 'auto' só roda com o tema 'gelido-w-aurora' ativo."
+          },
+          "gelidoW.foco": {
+            "type": "string",
+            "enum": ["auto", "on", "off"],
+            "default": "auto",
+            "description": "Foco gelado (pomodoro) na status bar. 'auto' só aparece com o tema 'gelido-w-aurora' ativo."
+          },
+          "gelidoW.focoMinutos": {
+            "type": "number",
+            "default": 25,
+            "minimum": 1,
+            "maximum": 180,
+            "description": "Duração do foco, em minutos."
+          },
+          "gelidoW.pausaMinutos": {
+            "type": "number",
+            "default": 5,
+            "minimum": 1,
+            "maximum": 180,
+            "description": "Duração da pausa curta, em minutos."
+          },
+          "gelidoW.pausaLongaMinutos": {
+            "type": "number",
+            "default": 15,
+            "minimum": 1,
+            "maximum": 180,
+            "description": "Duração da pausa longa (a cada 4 focos), em minutos."
+          },
+          "gelidoW.focoNevoa": {
+            "type": "boolean",
+            "default": true,
+            "description": "Liga o modo névoa automaticamente durante o foco."
           }
       }
     },
 
     "commands": [
-      {
-        "command": "gelidoW.alternarNevoa",
-        "title": "gelido-w: Alternar modo névoa"
-      }
+      {"command": "gelidoW.alternarNevoa", "title": "gelido-w: Alternar modo névoa"},
+      { "command": "gelidoW.foco", "title": "gelido-w: Foco gelado (menu)" },
+      { "command": "gelidoW.focoAlternar", "title": "gelido-w: Foco gelado (iniciar ou pausar)" },
+      { "command": "gelidoW.conquistas", "title": "gelido-w: Minhas conquistas" }
     ]
   }
   
